@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>7 Days to Die Mobile - Download Now</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin mattina="anonymous" referrerpolicy="no-referrer" />
     <style>
         * {
             margin: 0;
@@ -65,19 +65,22 @@
             100% { transform: translateX(100%); }
         }
 
-        h1 {
-            font-size: 2.5em;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: #ffffff;
-            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 2px 4px rgba(0, 0, 0, 0.5);
-            font-weight: 800;
+        .header-logo {
+            max-width: 130px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease;
+        }
+
+        .header-logo:hover {
+            transform: scale(1.05);
         }
 
         p.subtitle {
             font-size: 1em;
             color: #8b0000;
-            margin-top: 5px;
+            margin-top: 10px;
             font-weight: 400;
             position: relative;
             display: inline-block;
@@ -267,7 +270,9 @@
 </head>
 <body>
     <header>
-        <h1>7 Days to Die Mobile</h1>
+        <a href="https://glxy.site">
+            <img src="https://i.postimg.cc/43k89wN5/Spring.png" alt="7 Days to Die Mobile Logo" class="header-logo" loading="lazy">
+        </a>
         <p class="subtitle">Survive the Zombie Apocalypse</p>
     </header>
 
@@ -290,14 +295,15 @@
                     <div class="platform">Works on iOS & Android</div>
                     <p>Survive zombie hordes in this open-world sandbox. Craft, build, and fight to live another day on your mobile device.</p>
                 </div>
-                <a href="https://play.google.com/store" class="download-btn"><i class="fab fa-android"></i>ANDROID</a>
-                <a href="https://www.apple.com/app-store/" class="download-btn"><i class="fab fa-apple"></i>iOS</a>
+                <a href="https://play.google.com/store/apps/details?id=valhalla.survival.craft.z" class="download-btn"><i class="fab fa-android"></i>ANDROID</a>
+                <a href="https://apps.apple.com/us/app/frostborn-coop-survival/id1477237220" class="download-btn"><i class="fab fa-apple"></i>iOS</a>
                 <div class="download-counter">Downloads: <span class="count">0</span></div>
             </div>
         </div>
     </div>
 
     <footer>
+        <p>NOTE: You will download a mobile game similar to the one you selected.</p>
         <p>© 2025 GLXY.SITE - All rights reserved.</p>
     </footer>
 
